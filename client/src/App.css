@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  
+}
+
+.SignIn{
+  text-align: center;
+  background-color: lightblue;
+}
+
+.Username{
+  grid-column-start:2;
+  column-width:50px;
+}
+.Password{
+  column-width:50px;
+}
+.label{
+  grid-column-start:2;
+ 
+}

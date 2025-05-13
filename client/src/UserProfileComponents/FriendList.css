@@ -1,0 +1,12 @@
+.FriendList{
+    
+    justify-content:right;
+    align-items:center;
+}
+
+.Friend{
+    width: 200px;
+    height:40px;
+    text-align:right;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,88 @@
+.SignIn{
+    text-align: center;
+    background-color: lightblue;
+    
+
+}
+h1{
+    color:#fda501
+}
+.CenterContent{
+    padding-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.Menu {
+    background-color:rgb(243, 235, 235);
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    
+    border: 5px solid #FFD700;
+    border-radius: 50px;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.TextBoxes{
+    
+    padding-top: 100px;
+    margin: 0 auto;
+    
+}
+
+.SubmitOptions{
+    padding-top:50px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 20px;
+  }
+  input:focus {
+    border: 3px solid #555;
+  }
+
+
+/* CSS */
+.SubmitButton {
+  background-image: linear-gradient(92.88deg, #ffee55 9.16%, #ffde24 43.89%, #fdec01 64.72%);
+  border-radius: 50px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2rem;
+  width: 20rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.SubmitButton {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
